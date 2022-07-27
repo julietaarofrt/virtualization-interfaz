@@ -15,9 +15,9 @@ export default function Profile ({ datosPersonales }) {
           <div className={styles.profileBody}>
             <div className={styles.profileContent}>
               <h1 className={styles.title}>
-                UNIVERSIDAD TECNOLOGICA NACIONAL
+                UNIVERSIDAD TECNOLÓGICA NACIONAL
                 <p className={styles.greet}>
-                FACULTAD REGIONAL TUCUMAN
+                FACULTAD REGIONAL TUCUMÁN
               </p>
               </h1>
               <h2 className={styles.title}>Virtualización: Consolidación de Servidores</h2>

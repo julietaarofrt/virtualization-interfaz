@@ -6,7 +6,7 @@ export default function Footer () {
     <footer className={styles.footer}>
       <div>
       <p className="mx-auto mt-2">2022 &copy; Diseñado y desarrollado por Julieta Aro</p>
-      <span className={styles.bull}>&bull;</span>
+      <span className={styles.bull}></span>
         <span className={styles.logo}>
          {/* <Logo width={56} height={56} /> */}
         </span>

@@ -7,7 +7,7 @@ export default function ListOfCategories ({ categorias }) {
       <table className={styles.table}>
         <thead>
           <tr className={styles.tr}>
-            <th scope="col">Nombre Contenedor</th>
+            <th scope="col">Nombre</th>
             <th scope="col">Servicio</th>
             <th scope="col">Especificación</th>
           </tr>

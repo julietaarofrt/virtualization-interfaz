@@ -5,7 +5,7 @@ import styles from 'styles/DataDownload.module.css'
 
 import download from 'public/download.png'
 import github from 'public/github.png'
-import openBook from 'public/open-book.webp'
+import post from 'public/post.png'
 
 export default function DataDownload () {
   const pdfDownload = './TrabajoFinal.pdf'
@@ -28,6 +28,15 @@ export default function DataDownload () {
           src={github}
         />
         <span className={styles.img}>Github</span>
+        </a>
+        <a className={styles.download} href='/Post' target='_blank' rel='nofollow noreferrer'>
+          
+          <Image
+          width={24}
+          height={24}
+          src={post}
+        />
+        <span className={styles.img}>Post - Blog Personal</span>
         </a>
     </div>
   )
