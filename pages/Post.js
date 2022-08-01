@@ -192,7 +192,7 @@ Además de todas las características que ofrece el framework, su principal obje
                 <ListOfCategories categorias={categorias} />
                 <p mt-5>Para que el contenedor de la interfaz (38742005i) sea accesible desde el exterior, se configuró la siguiente dirección:</p>
                 <ul>
-                    <li>Dirección IP: 192.168.88.144</li>
+                    <li>Dirección IP: 192.168.88.173</li>
                     <li>Puerto: 3000</li>
                     <li>IP Pública: bejuca.hopto.org:11030</li>
                 </ul>
