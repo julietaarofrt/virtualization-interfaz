@@ -9,12 +9,12 @@ export default function Home ({ datosPersonales }) {
   )
 }
 
-// export async function getStaticProps () {
-//   const datosPersonales = await fetch('http://192.168.88.156:4000/student').then(res => { return res.json() })
+export async function getStaticProps () {
+  const datosPersonales = await fetch('http://192.168.88.156:4000/student').then(res => { return res.json() })
   
-//   return {
-//     props: {
-//       datosPersonales
-//     }
-//   }
-// }
+  return {
+    props: {
+      datosPersonales
+    }
+  }
+}

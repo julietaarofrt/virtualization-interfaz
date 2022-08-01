@@ -4,7 +4,7 @@ import ProfilePicture from 'components/ProfilePicture'
 import DataDownload from './DataDownload'
 
 export default function Profile ({ datosPersonales }) {
-  // const { name, lastname, studentId, subject } = datosPersonales[0]
+   const { name, lastname, studentId, subject } = datosPersonales[0]
   return (
     <>
       <Section className={styles.profile}>
@@ -25,19 +25,19 @@ export default function Profile ({ datosPersonales }) {
                 <span>
                   Nombre y Apellido: 
                 </span>
-                {/* {} {name} {lastname} */}
+                {} {name} {lastname}
               </p>
               <p className={styles.personalData}>
                 <span >
                   Materia: 
                 </span>
-                {/* {} {subject} */}
+                {} {subject}
               </p>
               <p className={styles.personalData}>
                 <span>
                   Legajo:  
                 </span>
-                {/* {} {studentId} */}
+                {} {studentId}
               </p>
             </div>
             <DataDownload />

@@ -262,12 +262,12 @@ Además de todas las características que ofrece el framework, su principal obje
   )
 }
 
-// export async function getStaticProps () {
-//   const categorias = await fetch('http://192.168.88.156:4000/resources').then(res => { return res.json() })
+export async function getStaticProps () {
+  const categorias = await fetch('http://192.168.88.156:4000/resources').then(res => { return res.json() })
   
-//   return {
-//     props: {
-//       categorias
-//     }
-//   }
-// }
+  return {
+    props: {
+      categorias
+    }
+  }
+}

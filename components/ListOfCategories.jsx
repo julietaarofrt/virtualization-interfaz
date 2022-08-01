@@ -12,9 +12,9 @@ export default function ListOfCategories ({ categorias }) {
             <th scope="col">Especificación</th>
           </tr>
         </thead>
-        {/* <tbody>
+        { <tbody>
           {categorias.map(({ name, serviceType, cpu, memory, diskRoot, network }) => (
-            <tr className={styles.tr} key={id}>
+            <tr className={styles.tr} key={'1'}>
               <td className={styles.td}>{name}</td>
               <td className={styles.td}>{serviceType}</td>
               <td className={styles.td}>
@@ -27,7 +27,7 @@ export default function ListOfCategories ({ categorias }) {
               </td>
             </tr>
           ))}
-        </tbody> */}
+        </tbody>}
       </table>
     </Section>
   )
