@@ -14,7 +14,7 @@ export default function ListOfCategories ({ categorias }) {
         </thead>
         { <tbody>
           {categorias.map(({ name, serviceType, cpu, memory, diskRoot, network }) => (
-            <tr className={styles.tr} key={id}>
+            <tr className={styles.tr} key={'1'}>
               <td className={styles.td}>{name}</td>
               <td className={styles.td}>{serviceType}</td>
               <td className={styles.td}>
