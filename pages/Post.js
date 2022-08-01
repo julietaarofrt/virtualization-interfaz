@@ -184,7 +184,7 @@ Además de todas las características que ofrece el framework, su principal obje
 
       <div className="container-md"> 
             <div>
-                <h2 className='text-center my-2'>Implementación</h2>
+                <h1 className='text-center my-2'>Implementación</h1>
                 <p mt-5>A continuación, se explicará la serie de pasos realizados para implementar un entorno MERN con MySQL en un contenedor LXC dentro del entorno virtual Proxmox.</p>
                 <h3 className='text-center mt-2 mb-5'>Crear Contenedores</h3>
                 <p mt-5>Una vez autenticados en la interfaz web de Proxmox, debemos presionar el botón “Create CT”, una ventana se abrirá solicitandonos toda la información necesaria para 
@@ -244,7 +244,7 @@ Además de todas las características que ofrece el framework, su principal obje
                   <li><code>apt install git</code></li>
                 </ul>
 
-                <h3 className='text-center mt-2 mb-5'>Ejecución de nuestro Stack Tecnológico MERN</h3>
+                <h1 className='text-center mt-2 mb-5'>Ejecución de nuestro Stack Tecnológico MERN</h1>
                 <p mt-5>Desde nuestro contenedor de la Base de Datos, realizamos las siguientes instrucciones:</p>
                 <ol>
                   <li>Clonamos el proyecto donde tenemos alojada nuestra API con el comando "git clone"</li>
